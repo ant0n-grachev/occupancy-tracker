@@ -62,15 +62,20 @@ def wait(now: datetime) -> float:
     return (now.replace(hour=open_hour, minute=0, second=0, microsecond=0) - now).total_seconds()
 
 
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 def main():
     while True:
         now = datetime.now()
         if is_open(now):
             log_occupancy(now, get_occupancy())
         else:
+            clear()
             logging.info(f"closed; next check when open.")
         time.sleep(wait(now))
 
 
 if __name__ == "__main__":
+    clear()
     main()
