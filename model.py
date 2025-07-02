@@ -127,7 +127,7 @@ plt.legend()
 plt.grid()
 plt.show()
 
-# 7) Make a prediction
+# 8) Make a prediction
 try:
     print("\nLet's make a prediction!")
     dow = int(input("Enter day of the week (1=Mon, ..., 7=Sun): "))
