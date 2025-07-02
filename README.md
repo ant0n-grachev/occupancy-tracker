@@ -73,11 +73,18 @@ The model learns a weighted combination of polynomial features. After training, 
 ### 📊 Visualizations
 
 The training script outputs:
-
-![image](https://github.com/user-attachments/assets/0627ab75-8f1a-4230-b3d7-685d6d7dbd7c)
-![image](https://github.com/user-attachments/assets/ead4d9ab-9157-4c46-9016-5d9f5eea7eda)
+| ![image](https://github.com/user-attachments/assets/0627ab75-8f1a-4230-b3d7-685d6d7dbd7c) | ![image](https://github.com/user-attachments/assets/ead4d9ab-9157-4c46-9016-5d9f5eea7eda) |
+|-----|-----|
 
 This helps validate how well the model captures trends and where it struggles.
+
+| Mon | Tue | Wed |
+|-----|-----|-----|
+| ![image](https://github.com/user-attachments/assets/d5ea3749-d1ce-4c15-8104-7fd7db50764b) | ![image](https://github.com/user-attachments/assets/92db5b03-f0e3-4242-a2fd-b1d7da79b8e9) | ![image](https://github.com/user-attachments/assets/b5242854-52a1-42df-809d-b31413baf33c) |
+| Thu | Fri | Sat |
+| ![image](https://github.com/user-attachments/assets/f61ef9ef-ae68-4f06-8be7-7eadb80e7be4) | ![image](https://github.com/user-attachments/assets/5b05c157-a499-4a34-96fa-d31fe4522d9e) | ![image](https://github.com/user-attachments/assets/3fba41b0-a4fe-4ae5-8238-7d93f5a20b1f) |
+| | Sun | |
+| | ![image](https://github.com/user-attachments/assets/42336212-62b9-4778-a592-47a7cbf1fdac) | |
 
 #### 📉 Model Performance
 
