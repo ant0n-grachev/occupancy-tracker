@@ -35,7 +35,7 @@ Example log:
 09:15, 74
 09:30, 88
 09:45, 91
-10:00, ERROR  ← means fetch failed or data was missing
+10:00, ERROR  <- means fetch failed or data was missing
 ```
 
 All logs are saved to the `occupancy_logs/` directory.
@@ -112,7 +112,7 @@ Minute (0, 15, 30, 45)
 The script will apply the same feature transformations and output a prediction, for example:
 
 ```
-Predicted gym occupancy at day 4, 17:30 → 63 people
+Predicted gym occupancy at day 4, 17:30 -> 63 people
 ```
 
 This enables students to plan their workouts around low-traffic windows.
